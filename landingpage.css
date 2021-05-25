@@ -1,0 +1,37 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.brand-design {
+    flex-direction: row;
+    align-items: center;
+}
+
+.col-wrapper {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#header-img {
+    height: 70px;
+    width: 70px;
+    display:flex;
+}
+.bg-light {
+    background-color: #F5F5F5 !important;
+}
+
+.nav-link {
+overflow: hidden;
+width: 100%;
+white-space:nowrap;
+
+}
+
+.row-wrapper {
+    margin:-20px -20px -20px -20px;
+}
