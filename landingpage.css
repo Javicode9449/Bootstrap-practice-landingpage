@@ -2,39 +2,51 @@ a {
     color:black;
 }
 
+.bg-light {
+    background-color: #F5F5F5 !important;
+}
+
+
+.bi-badge-4k-fill {
+    align-items: center;
+    height: auto;
+    width: 50px;
+}
+
+.bi-hourglass-split {
+    align-items: center;
+    height: auto;
+    width: 50px;
+}
+
+.bi-lightbulb {
+    align-items: center;
+    height: auto;
+    width: 50px;
+}
+
+.bi-key-fill {
+    align-items: center;
+    height: auto;
+    width: 50px;;
+}
+
+
 body {
     background-color: #F5F5F5;
     font-family: 'lato', sans-serif;
 }
 
 .brand-design {
+    align-items: center;
     flex-direction: row;
-    align-items: center;
-}
-
-.bi-badge-4k-fill {
-    width: 50px;
-    height: auto;
-    align-items: center;
-}
-
-.bi-hourglass-split {
-    width: 50px;
-    height: auto;
-    align-items: center;
     
 }
 
-.bi-lightbulb {
-    width: 50px;
-    height: auto;
+.button-wrapper {
     align-items: center;
-}
-
-.bi-key-fill {
-    width: 50px;
-    height: auto;
-    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .btn {
@@ -43,41 +55,36 @@ body {
 }
 
 .btn-outline-success {
-    color:black;
     background-color: lightseagreen;
     background-image: none;
     border-color: none;
+    color:black;
 }
 
 .btn-primary {
-    color:black;
     background-color: lightseagreen;
     background-image: none;
     border-color: none;
+    color:black;
 }
 
-.button-wrapper {
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-}
 .col-wrapper {
     background-color: #F5F5F5;
     padding: 20px;
 }
 
 .descripter {
-    white-space:nowrap;
+    align-self: center;
     align-items: center;
     overflow: hidden;
-    align-self: center;
-    
+    white-space:nowrap;    
 }
 
 footer {
-    margin-top: 30px;
     background-color: darkgrey;
+    margin-top: 30px;
     padding: 20px;
+    width:100%;
 }
 
 footer ul {
@@ -86,100 +93,105 @@ footer ul {
 }
 
 footer span {
-    display: flex;
-    margin-top: 5px;
-    justify-content: flex-end;
-    font-size: 0.9em;
     color: black;
+    display: flex;
+    font-size: 0.9em;
+    justify-content: flex-end;
+    margin-top: 5px;
 }
 
 footer ul li {
-    padding: 0 10px;
-    list-style:none;
     color:black;
+    list-style:none;
+    padding: 0 10px;
 }
 
 h1 {
-    font-size: 25px;
     align-items: center;
+    font-size: 25px;
 }
 
 h2 {
+    align-items: center;
     font-size: 20px;
-    white-space: nowrap;
+    justify-content: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    align-items: center;
-    justify-content: center;
+    white-space: nowrap; 
 }
 
 h3 {
+    align-items: center;
     font-size: 30px;
-    white-space: nowrap;
+    justify-content: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    align-items: center;
-    justify-content: center;
+    white-space: nowrap; 
 }
 
 h4 {
+    align-items: center;
     font-size: 30px;
-    text-align: center;
-    white-space: nowrap;
+    justify-content: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    align-items: center;
-    justify-content: center;
+    white-space: nowrap; 
 }
 
 h5 {
-    padding: 10px;
     background-color: darkgrey;
+    padding: 10px;
 }
 
 #header-img {
+    display:flex;
     height: 70px;
     width: 70px;
-    display:flex;
 }
 
 .icon-wrappers {
-    padding: 25px;
     max-width: 100%;
+    padding: 25px;
 }
 
 .info {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     font-size:10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space:nowrap;
 }
 
-.bg-light {
-    background-color: #F5F5F5 !important;
+@media (max-width: 787px) {
+    .iconssvg {
+      display: none;
+    }
+  }
+
+.navhead {
+    justify-content: flex-end;
+
 }
 
 .nav-link {
 overflow: hidden;
-width: 100%;
 white-space:nowrap;
-
+width: 100%;
 }
 
 p {
     padding: 10px;
 }
 
-.productbox {
-    justify-content: center;
-    border-style:solid;
-    border-width: 2px;
-}
-
 .print-image {
     padding: 10px;
+}
+
+.productbox {
+    border-style:solid;
+    border-width: 2px;
+    justify-content: center;
 }
 
 .row-wrapper {
@@ -187,19 +199,14 @@ p {
 }
 
 #submit {
-    flex-direction:column;
     align-items: center;
+    flex-direction:column;
 }
-@media (max-width: 787px) {
-    .iconssvg {
-      display: none;
-    }
-  }
 
 .youtubevideo {
+      align-items: center;
       background-image: url("https://cdn.shopify.com/s/files/1/0008/2457/4018/files/how-to-3d-print---banner_2048x2048.jpg?v=1610132316");
       background-size: 100% 100%;
       justify-content: center;
-      align-items: center;
       padding: 100px;
   }
