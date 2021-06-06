@@ -1,5 +1,10 @@
+a {
+    color:black;
+}
+
 body {
     background-color: #F5F5F5;
+    font-family: 'lato', sans-serif;
 }
 
 .brand-design {
@@ -7,13 +12,129 @@ body {
     align-items: center;
 }
 
+.bi-badge-4k-fill {
+    width: 50px;
+    height: auto;
+    align-items: center;
+}
+
+.bi-hourglass-split {
+    width: 50px;
+    height: auto;
+    align-items: center;
+    
+}
+
+.bi-lightbulb {
+    width: 50px;
+    height: auto;
+    align-items: center;
+}
+
+.bi-key-fill {
+    width: 50px;
+    height: auto;
+    align-items: center;
+}
+
+.btn {
+    background-color: lightseagreen;
+    border-radius: 25px;
+}
+
+.btn-outline-success {
+    color:black;
+    background-color: lightseagreen;
+    background-image: none;
+    border-color: none;
+}
+
+.btn-primary {
+    color:black;
+    background-color: lightseagreen;
+    background-image: none;
+    border-color: none;
+}
+
+.button-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
 .col-wrapper {
     background-color: #F5F5F5;
     padding: 20px;
 }
 
+.descripter {
+    white-space:nowrap;
+    align-items: center;
+    overflow: hidden;
+    align-self: center;
+    
+}
+
+footer {
+    margin-top: 30px;
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer span {
+    display: flex;
+    margin-top: 5px;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: black;
+}
+
+footer ul li {
+    padding: 0 10px;
+    list-style:none;
+    color:black;
+}
+
 h1 {
     font-size: 25px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    padding: 10px;
+    background-color: darkgrey;
 }
 
 #header-img {
@@ -21,6 +142,21 @@ h1 {
     width: 70px;
     display:flex;
 }
+
+.icon-wrappers {
+    padding: 25px;
+    max-width: 100%;
+}
+
+.info {
+    flex-direction: column;
+    align-items: center;
+    font-size:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
 .bg-light {
     background-color: #F5F5F5 !important;
 }
@@ -32,6 +168,38 @@ white-space:nowrap;
 
 }
 
+p {
+    padding: 10px;
+}
+
+.productbox {
+    justify-content: center;
+    border-style:solid;
+    border-width: 2px;
+}
+
+.print-image {
+    padding: 10px;
+}
+
 .row-wrapper {
     margin:-20px -20px -20px -20px;
 }
+
+#submit {
+    flex-direction:column;
+    align-items: center;
+}
+@media (max-width: 787px) {
+    .iconssvg {
+      display: none;
+    }
+  }
+
+.youtubevideo {
+      background-image: url("https://cdn.shopify.com/s/files/1/0008/2457/4018/files/how-to-3d-print---banner_2048x2048.jpg?v=1610132316");
+      background-size: 100% 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+  }
